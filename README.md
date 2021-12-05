@@ -28,7 +28,7 @@
 <br/>
 
 <p align="left">
-<img alt="Achyutmanas Tiwari's streak" src="https://github-readme-streak-stats.herokuapp.com/?user=gurmatsinghsour&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
+<img alt="Achyutmanas Tiwari's streak" src="https://github-readme-streak-stats.herokuapp.com/?user=manas-27&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
 </p>
 
 ## 📊 My Github Stats
@@ -44,7 +44,7 @@
 <br/>
 <br/>
 
-<img alt="Achyutmanas Tiwari's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=gurmatsinghsour&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+<img alt="Achyutmanas Tiwari's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=manas-27&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
 
 <br/>
 <br/>
@@ -60,4 +60,4 @@
 
 ## ❤ Views and Followers
 <img src="https://komarev.com/ghpvc/?username=manas-27">
-<a href="https://github.com/gurmatsinghsour?tab=followers"><img src="https://img.shields.io/github/followers/manas-27?label=Followers&style=social" alt="GitHub Badge"></a>
+<a href="https://github.com/manas-27?tab=followers"><img src="https://img.shields.io/github/followers/manas-27?label=Followers&style=social" alt="GitHub Badge"></a>
