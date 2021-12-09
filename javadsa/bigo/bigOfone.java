@@ -1,4 +1,4 @@
-package javadsa;
+package javadsa.bigo;
 
 import java.util.*;
 
