@@ -10,7 +10,7 @@ public class stringreverse {
     }
 
     public static void main(String[] args) {
-        String str = "AsimVaibhav";
+        String str = "Shikha";
         printrev(str, str.length() - 1);
 
     }
