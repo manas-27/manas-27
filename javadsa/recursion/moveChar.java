@@ -6,7 +6,7 @@ public class moveChar {
     public static void moveAllX(String str, int i, int count, String newString) {
         char currchar = str.charAt(i);
         if (i == str.length() - 1) {
-            for (int j = 1; j <= count; j++) {
+            for (int j = 0; j <= count; j++) {
                 newString += 'x';
             }
             System.out.println(newString);
