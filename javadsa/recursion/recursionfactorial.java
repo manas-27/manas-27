@@ -1,17 +1,20 @@
 package javadsa.recursion;
 
 public class recursionfactorial {
-    public static void factorial(int fact, int i, int n) {
+    public static int factorial(int fact, int i, int n) {
         if (i == n) {
             fact *= i;
-            System.out.println(fact);
-            return;
+            return fact;
+        }
+        if (n == 0 || n == 1) {
+            return 1;
         }
         fact *= i;
-        factorial(fact, i + 1, n);
+        return factorial(fact, i + 1, n);
     }
 
     public static void main(String[] args) {
-        factorial(1, 1, 5);
+        int answer = factorial(1, 1, 1);
+        System.out.println(answer);
     }
 }
