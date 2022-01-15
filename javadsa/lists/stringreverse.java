@@ -1,4 +1,4 @@
-package javadsa.array;
+package javadsa.lists;
 
 public class stringreverse {
     public static void main(String[] args) {

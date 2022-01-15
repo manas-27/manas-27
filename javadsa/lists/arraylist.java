@@ -1,4 +1,4 @@
-package javadsa.array;
+package javadsa.lists;
 
 import java.util.ArrayList;
 import java.util.Collections;
