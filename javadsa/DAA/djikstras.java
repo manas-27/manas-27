@@ -1,15 +1,15 @@
+import java.util.Scanner;
 
- 
-class ShortestPath {
+public class djikstras {
     
-    static final int V = 9;
-    int minDistance(int dist[], Boolean sptSet[])
+    
+    int minDistance(int dist[], Boolean visited[], int V)
     {
         // Initialize min value
         int min = Integer.MAX_VALUE, min_index = -1;
  
         for (int v = 0; v < V; v++)
-            if (sptSet[v] == false && dist[v] <= min) {
+            if (visited[v] == false && dist[v] <= min) {
                 min = dist[v];
                 min_index = v;
             }
@@ -18,7 +18,7 @@ class ShortestPath {
     }
  
     // A utility function to print the constructed distance array
-    void printSolution(int dist[])
+    void printSolution(int dist[], int V)
     {
         System.out.println("Vertex \t\t Distance from Source");
         for (int i = 0; i < V; i++)
@@ -26,16 +26,16 @@ class ShortestPath {
     }
  
    
-    void dijkstra(int graph[][], int src)
+    void dijkstra(int graph[][], int src, int V)
     {
         int dist[] = new int[V]; 
        
-        Boolean sptSet[] = new Boolean[V];
+        Boolean visited[] = new Boolean[V];
  
         // Initialize all distances as INFINITE and stpSet[] as false
         for (int i = 0; i < V; i++) {
             dist[i] = Integer.MAX_VALUE;
-            sptSet[i] = false;
+            visited[i] = false;
         }
  
         // Distance of source vertex from itself is always 0
@@ -44,38 +44,43 @@ class ShortestPath {
         // Find shortest path for all vertices
         for (int count = 0; count < V - 1; count++) {
           
-            int u = minDistance(dist, sptSet);
+            int u = minDistance(dist, visited, V);
  
             // Mark the picked vertex as processed
-            sptSet[u] = true;
+            visited[u] = true;
  
             // Update dist value of the adjacent vertices of the
             // picked vertex.
             for (int v = 0; v < V; v++)
  
              
-                if (!sptSet[v] && graph[u][v] != 0 && dist[u] != Integer.MAX_VALUE && dist[u] + graph[u][v] < dist[v])
+                if (!visited[v] && graph[u][v] != 0 && dist[u] != Integer.MAX_VALUE && dist[u] + graph[u][v] < dist[v])
                     dist[v] = dist[u] + graph[u][v];
         }
  
         // print the constructed distance array
-        printSolution(dist);
+        printSolution(dist, V);
     }
  
     // Driver method
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of vertices: ");
+        int V = sc.nextInt();
+        System.out.println("Enter the number of Edges: ");
+        int e = sc.nextInt();
         //  Let us create the example graph discussed above 
-        int graph[][] = new int[][] { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
-                                      { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
-                                      { 0, 8, 0, 7, 0, 4, 0, 0, 2 },
-                                      { 0, 0, 7, 0, 9, 14, 0, 0, 0 },
-                                      { 0, 0, 0, 9, 0, 10, 0, 0, 0 },
-                                      { 0, 0, 4, 14, 10, 0, 2, 0, 0 },
-                                      { 0, 0, 0, 0, 0, 2, 0, 1, 6 },
-                                      { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
-                                      { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
-        ShortestPath t = new ShortestPath();
-        t.dijkstra(graph, 0);
+        int graph[][] = new int[V][V];
+        System.out.println("Enter the elements of adjacency matrix according to graph: ");
+        
+        for(int j = 0; j<e; j++){
+            int v1 = sc.nextInt();
+            int v2 = sc.nextInt();
+            graph[v1][v2] = sc.nextInt();
+        }
+        
+        sc.close();
+        djikstras t = new djikstras();
+        t.dijkstra(graph, 0, V);
     }
 }
