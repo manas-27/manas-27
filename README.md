@@ -10,7 +10,6 @@
 
 - 👨‍💻 All of my projects are available at my github repositories. 
 
-- ⚡ Fun fact **I play games and go to the GYM very often.**
 
 ## 🚀 Languages and Tools:
 
@@ -21,7 +20,7 @@
     <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a> 
     <a href="https://getbootstrap.com" target="_blank"> <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/> </a> 
     <a href="https://www.python.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/python.png"/> </a> 
-    <a href="https://www.adobe.com/in/products/photoshop.html"> <img src="https://img.icons8.com/fluency/48/000000/adobe-photoshop.png"/> </a>
+    <a href="https://www.php.net/docs.php"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" width="80px" height="40px"/> </a>
 </p>
 
 
