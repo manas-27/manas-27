@@ -29,3 +29,8 @@ bannerHome = document.querySelector(".banner-2");
 bannerHome.addEventListener("click", () => {
   document.location.href = "products.html";
 });
+
+explore = document.querySelector("#explore");
+explore.addEventListener("click", () => {
+  document.location.href = "products.html";
+});
