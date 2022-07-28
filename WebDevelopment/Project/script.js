@@ -12,3 +12,8 @@ if (close) {
     nav.classList.remove("active");
   });
 }
+
+let explore = document.querySelector("#explore");
+explore.addEventListener("click", () => {
+  document.location.href = "products.html";
+});
