@@ -1,4 +1,4 @@
-package javadsa.pattern;
+
 
 public class pallindromePyramid {
     public static void main(String[] args) {

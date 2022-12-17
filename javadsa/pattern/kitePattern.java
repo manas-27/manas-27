@@ -1,4 +1,4 @@
-package javadsa.pattern;
+
 
 public class kitePattern {
     public static void main(String[] args) {

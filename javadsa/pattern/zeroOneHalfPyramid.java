@@ -1,4 +1,4 @@
-package javadsa.pattern;
+
 
 public class zeroOneHalfPyramid {
     public static void main(String[] args) {

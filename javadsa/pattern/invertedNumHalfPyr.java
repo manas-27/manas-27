@@ -1,4 +1,3 @@
-package javadsa.pattern;
 
 public class invertedNumHalfPyr {
     public static void main(String[] args) {

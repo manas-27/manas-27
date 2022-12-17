@@ -12,100 +12,100 @@
         },
         {
             "type": "java",
-            "name": "Launch Solution",
+            "name": "Launch butterFlyPattern",
             "request": "launch",
-            "mainClass": "Solution",
+            "mainClass": "butterFlyPattern",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
-            "name": "Launch butterFlyPattern",
+            "name": "Launch flip",
             "request": "launch",
-            "mainClass": "javadsa.pattern.butterFlyPattern",
+            "mainClass": "flip",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch halfPyramid",
             "request": "launch",
-            "mainClass": "javadsa.pattern.halfPyramid",
+            "mainClass": "halfPyramid",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch hollowrect",
             "request": "launch",
-            "mainClass": "javadsa.pattern.hollowrect",
+            "mainClass": "hollowrect",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch invertedNumHalfPyr",
             "request": "launch",
-            "mainClass": "javadsa.pattern.invertedNumHalfPyr",
+            "mainClass": "invertedNumHalfPyr",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch invertedhalfpy",
             "request": "launch",
-            "mainClass": "javadsa.pattern.invertedhalfpy",
+            "mainClass": "invertedhalfpy",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch kitePattern",
             "request": "launch",
-            "mainClass": "javadsa.pattern.kitePattern",
+            "mainClass": "kitePattern",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch numPyramidIncrement",
             "request": "launch",
-            "mainClass": "javadsa.pattern.numPyramidIncrement",
+            "mainClass": "numPyramidIncrement",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch numberHalfPyramid",
             "request": "launch",
-            "mainClass": "javadsa.pattern.numberHalfPyramid",
+            "mainClass": "numberHalfPyramid",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch numberPyramid",
             "request": "launch",
-            "mainClass": "javadsa.pattern.numberPyramid",
+            "mainClass": "numberPyramid",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch pallindromePyramid",
             "request": "launch",
-            "mainClass": "javadsa.pattern.pallindromePyramid",
+            "mainClass": "pallindromePyramid",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch pyramidPattern",
             "request": "launch",
-            "mainClass": "javadsa.pattern.pyramidPattern",
+            "mainClass": "pyramidPattern",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch solidRhombus",
             "request": "launch",
-            "mainClass": "javadsa.pattern.solidRhombus",
+            "mainClass": "solidRhombus",
             "projectName": "pattern_4d8098b7"
         },
         {
             "type": "java",
             "name": "Launch zeroOneHalfPyramid",
             "request": "launch",
-            "mainClass": "javadsa.pattern.zeroOneHalfPyramid",
+            "mainClass": "zeroOneHalfPyramid",
             "projectName": "pattern_4d8098b7"
         }
     ]
