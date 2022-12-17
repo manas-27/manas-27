@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch butterFlyPattern",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.butterFlyPattern",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch halfPyramid",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.halfPyramid",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch hollowrect",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.hollowrect",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch invertedNumHalfPyr",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.invertedNumHalfPyr",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch invertedhalfpy",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.invertedhalfpy",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch kitePattern",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.kitePattern",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch numPyramidIncrement",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.numPyramidIncrement",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch numberHalfPyramid",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.numberHalfPyramid",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch numberPyramid",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.numberPyramid",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch pallindromePyramid",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.pallindromePyramid",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch pyramidPattern",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.pyramidPattern",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch solidRhombus",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.solidRhombus",
+            "projectName": "pattern_4d8098b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch zeroOneHalfPyramid",
+            "request": "launch",
+            "mainClass": "javadsa.pattern.zeroOneHalfPyramid",
+            "projectName": "pattern_4d8098b7"
+        }
+    ]
+}
