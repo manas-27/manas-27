@@ -1,47 +1,24 @@
-class  Node{
-    int data;
-    Node next;
-}
+package javadsa.lists;
 
-class Linkedlist{
-    Node head;
-
-    public void insert(int data){
-        Node node = new Node();
-        node.data = data;
-        node.next = null;
-
-        if(head == null){
-            head = node;
-        }
-        else{
-            Node n =head;
-            while(n.next != null){
-                n = n.next;
-            }
-            n.next = node;
-        }
-    }
-
-    public void show(){
-        Node node = head;
-
-        while(node.next != null){
-            System.out.print(node.data+"-->");
-            node = node.next;
-        }
-        System.out.println(node.data);
-    }
-}
-
+import java.util.*;
 public class newLinkedList {
     public static void main(String[] args) {
-        Linkedlist list = new Linkedlist();
+        LinkedList<String> list = new LinkedList<>();
 
-        list.insert(5);
-        list.insert(10);
-        list.insert(12);
+        list.addFirst("Manas");
+        list.addLast("Tiwari");
+        list.addFirst("Achyut");
 
-        list.show();
+        System.out.println(list);
+        System.out.println(list.size());
+
+        for (int i = 0; i < list.size(); i++) {
+            System.out.print(list.get(i) + " --> ");
+        }
+        System.out.println("Null");
+
+        list.remove(1);
+
+        System.out.println(list);
     }
 }

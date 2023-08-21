@@ -127,6 +127,8 @@ public class fractional_knapsack {
 
         solveKnapsack(weights, values, n, capacity);
 
+        sc.close();
+
     }
 
 }

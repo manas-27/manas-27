@@ -3,7 +3,9 @@ package javadsa.lists;
 public class stringreverse {
     public static void main(String[] args) {
 
-        StringBuilder sb = new StringBuilder("JavaPrograming");
+        String str = "Java";
+
+        StringBuilder sb = new StringBuilder(str);
 
         for (int i = 0; i < sb.length() / 2; i++) {
 
