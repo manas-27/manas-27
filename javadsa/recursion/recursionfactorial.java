@@ -1,4 +1,4 @@
-package javadsa.recursion;
+package recursion;
 
 public class recursionfactorial {
     public static int factorial(int fact, int i, int n) {

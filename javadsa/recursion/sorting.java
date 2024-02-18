@@ -1,6 +1,6 @@
 // Q3 To check whether given array is sorted or not(Strictly increasing)
 
-package javadsa.recursion;
+package recursion;
 
 public class sorting {
     public static boolean isSorted(int arr[], int i) {

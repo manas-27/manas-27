@@ -1,6 +1,6 @@
 // Q2 To find first and last occurence of given character in given String
 
-package javadsa.recursion;
+package recursion;
 
 public class occuranceofChar {
     public static int first = -1, last = -1;

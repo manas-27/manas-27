@@ -1,6 +1,6 @@
 // Q7 To print unique subsequences of a given string
 
-package javadsa.recursion;
+package recursion;
 
 import java.util.*;
 

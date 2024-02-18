@@ -1,4 +1,4 @@
-package javadsa.lists;
+package lists;
 
 import java.util.*;
 public class newLinkedList {

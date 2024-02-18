@@ -1,4 +1,4 @@
-package javadsa.bigo;
+package bigo;
 
 public class bigOfN {
     static void printArray() {

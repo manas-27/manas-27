@@ -1,6 +1,6 @@
 // Q6 To print subsequences of a given string
 
-package javadsa.recursion;
+package recursion;
 
 public class subsequences {
 

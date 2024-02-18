@@ -1,4 +1,4 @@
-package javadsa.recursion;
+package recursion;
 
 public class fibonacci {
     public static void printfibo(int a, int b, int n) {

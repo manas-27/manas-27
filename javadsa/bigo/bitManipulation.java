@@ -1,4 +1,4 @@
-package javadsa.bigo;
+package bigo;
 
 public class bitManipulation {
     static void getBit() {

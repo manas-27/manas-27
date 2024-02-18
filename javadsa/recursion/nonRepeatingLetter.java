@@ -1,4 +1,4 @@
-package javadsa.recursion;
+package recursion;
 
 public class nonRepeatingLetter {
     public static void nonRepeating(String str, int i) {

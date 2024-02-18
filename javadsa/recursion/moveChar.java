@@ -1,6 +1,6 @@
 // Q4 Move all 'x' to the end of the string
 
-package javadsa.recursion;
+package recursion;
 
 public class moveChar {
     public static void moveAllX(String str, int i, int count, String newString) {

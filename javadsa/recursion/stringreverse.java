@@ -1,4 +1,4 @@
-package javadsa.recursion;
+package recursion;
 
 public class stringreverse {
     public static void printrev(String str, int i) {

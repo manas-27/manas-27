@@ -1,4 +1,4 @@
-package javadsa.bigo;
+package bigo;
 
 public class bigOofNXN {
     static void multiArray() {

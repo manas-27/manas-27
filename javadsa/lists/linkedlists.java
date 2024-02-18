@@ -1,4 +1,4 @@
-package javadsa.lists;
+package lists;
 
 public class linkedlists {
 

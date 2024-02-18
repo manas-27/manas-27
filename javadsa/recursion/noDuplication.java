@@ -1,6 +1,6 @@
 // Q5 To remove all the duplicates from the given string
 
-package javadsa.recursion;
+package recursion;
 
 public class noDuplication {
     public static boolean[] map = new boolean[26];
